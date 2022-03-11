@@ -4,3 +4,14 @@ body,
     height: 100%;
     margin: 0;
 }
+.grid-container{
+    display: grid;
+    height: 400px;/*высота*/
+    width: 700px;/*ширина*/
+    gap: 20px;
+    grid-template-columns:auto auto;
+    grid-template-rows: auto 200px auto;
+}
+.grid-container div{
+    background-color: #DAA520;   
+}
